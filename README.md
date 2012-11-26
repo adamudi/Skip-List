@@ -1,4 +1,0 @@
-SkipList
-========
-
-ATS SkipList Implementation
