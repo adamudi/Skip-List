@@ -1,0 +1,30 @@
+(*
+*)
+(*
+typedef SkipList = @{maxLevel = int, head = node}
+
+fun SkipList_create(maxLevel: int): SkipList // create empty skip list with max level
+fun SkipList_search(key: int): node // search for a key return a node 
+fun SkipList_insert(key: int): SkipList // insert a node with a new key
+fun SkipList_delete(key: int): SkipList // delete node with key
+
+
+fun nodeArr_create (): nodeArr
+fun nodeArr_get(i: int): node // get a node at specified index
+
+(* ****** ****** *)
+
+fun node_create(k:int): node 
+fun node_getArr(n: node): nodeArr // get the array in this node
+fun node_getKey(n: node): int // get the Key
+fun node_chooseHeight(maxHeight: int, r: myRandom): int // choose a heigh for this node
+
+
+*)
+
+implement SkipList_search(sk, k) =
+let
+  val na = node_getArr(SkipList_getHead(sk))
+in
+
+end
